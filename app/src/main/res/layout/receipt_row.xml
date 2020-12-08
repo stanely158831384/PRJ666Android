@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/boder">
+
+    <ImageView
+        android:id="@+id/receiptPic"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/menupic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/receiptDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="menu name here"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/receiptUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="menu code here" />
+
+    <TextView
+        android:id="@+id/receiptDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="menu code here" />
+
+    <TextView
+        android:id="@+id/receiptPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="menu code here" />
+
+    <TextView
+        android:id="@+id/receiptEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="menu code here" />
+
+
+
+</LinearLayout>
